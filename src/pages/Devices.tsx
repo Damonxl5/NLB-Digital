@@ -10,7 +10,7 @@ const Devices: React.FC = () => {
   const pushHistory = BOOKS.filter(b => b.status === 'borrowed').slice(0, 1);
 
   return (
-    <div className="flex flex-col gap-8 p-6 bg-slate-50 min-h-screen">
+    <div className="flex flex-col gap-8 p-6 bg-slate-50 min-h-screen pb-24">
       {/* Header */}
       <header className="flex items-center gap-4 pt-8">
         <button onClick={() => navigate(-1)} className="p-2 hover:bg-white rounded-full transition-colors">

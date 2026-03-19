@@ -7,7 +7,7 @@ import { motion } from 'motion/react';
 
 const TopicItem: React.FC<{ topic: Topic; onBack: () => void }> = ({ topic, onBack }) => {
   return (
-    <div className="flex flex-col bg-white h-full overflow-y-auto scrollbar-hide relative">
+    <div className="flex flex-col bg-white h-full overflow-y-auto scrollbar-hide relative pb-24">
       {/* Header Image */}
       <div className="relative h-[45vh] w-full flex-shrink-0">
         <img 
@@ -34,7 +34,7 @@ const TopicItem: React.FC<{ topic: Topic; onBack: () => void }> = ({ topic, onBa
       </div>
 
       {/* Content */}
-      <div className="px-6 py-8 md:px-8 flex flex-col gap-6 pb-32">
+      <div className="px-6 py-8 md:px-8 flex flex-col gap-6">
         <div className="flex items-center gap-4 text-slate-400 text-[10px] font-bold border-b border-slate-100 pb-6 uppercase tracking-widest">
           <div className="flex items-center gap-1.5">
             <Calendar size={12} className="text-blue-500" />

@@ -32,7 +32,7 @@ const Help: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col gap-8 p-6 bg-[#1F2B6C] min-h-screen text-white">
+    <div className="flex flex-col gap-8 p-6 bg-[#1F2B6C] min-h-screen text-white pb-24">
       {/* Header */}
       <header className="flex flex-col gap-4 pt-8">
         <div className="flex items-center gap-4">

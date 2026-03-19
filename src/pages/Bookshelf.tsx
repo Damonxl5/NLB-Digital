@@ -57,7 +57,7 @@ const Bookshelf: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col gap-8 p-6 bg-white min-h-screen relative">
+    <div className="flex flex-col gap-8 p-6 bg-white min-h-screen relative pb-24">
       {/* Success Toast */}
       <AnimatePresence>
         {showSuccess && (

@@ -38,7 +38,7 @@ const BookDetails: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col relative pb-12">
+    <div className="min-h-screen bg-slate-50 flex flex-col relative pb-24">
       {/* Header Overlay */}
       <header className="fixed top-0 w-full max-w-md flex justify-between items-center p-6 z-50">
         <button onClick={() => navigate(-1)} className="p-3 bg-white/80 backdrop-blur-md rounded-full text-slate-900 shadow-sm border border-slate-100 hover:bg-white transition-colors">

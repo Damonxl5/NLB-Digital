@@ -17,7 +17,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col max-w-md mx-auto relative shadow-2xl overflow-hidden border-x border-slate-200">
       {/* Main Content */}
-      <main className="flex-1 overflow-y-auto pb-24 scrollbar-hide">
+      <main className="flex-1 overflow-y-auto scrollbar-hide">
         <AnimatePresence mode="wait">
           <motion.div
             key={location.pathname}

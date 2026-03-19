@@ -28,7 +28,7 @@ const ReadingReport: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#0A0A0A] text-white">
+    <div className="flex flex-col min-h-screen bg-[#0A0A0A] text-white pb-24">
       {/* Header */}
       <header className="sticky top-0 z-10 bg-black/50 backdrop-blur-md px-4 py-4 flex items-center justify-between">
         <button 
@@ -43,7 +43,7 @@ const ReadingReport: React.FC = () => {
         </button>
       </header>
 
-      <div className="p-6 space-y-12 pb-24">
+      <div className="p-6 space-y-12">
         {/* Hero Section */}
         <section className="text-center space-y-6 pt-8">
           <motion.div 

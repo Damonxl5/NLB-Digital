@@ -15,7 +15,7 @@ const Profile: React.FC = () => {
   if (!user) return null;
 
   return (
-    <div className="flex flex-col gap-8 p-6 bg-slate-50 min-h-screen">
+    <div className="flex flex-col gap-8 p-6 bg-slate-50 min-h-screen pb-24">
       {/* User Info */}
       <header className="flex flex-col items-center gap-6 pt-8">
         <div className="relative">
